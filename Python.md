@@ -17,7 +17,7 @@ Une variable en Python est constituée de trois éléments principaux :
 nom = "Choukri"
 prénom = "Raja"
 age = 30
-print (f"Je m'appelle{nom} {prénom} et j'ai {30} ans") # Je m'appelle Choukri Raja et j'ai 30 ans.
+print (f"Je m'appelle {nom} {prénom} et j'ai {30} ans") # Je m'appelle Choukri Raja et j'ai 30 ans.
 ```
 ### **TYPE DE DONNÉE**
 
