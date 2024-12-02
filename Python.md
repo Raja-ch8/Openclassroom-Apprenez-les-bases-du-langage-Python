@@ -8,7 +8,9 @@ Les **variables** sont un moyen d'enregistrer des données dans un programme. El
 Une variable en Python est constituée de trois éléments principaux :
 
 **1. Type :** Détermine la catégorie de données que la variable contient.
+
 **2.  Nom :** Indique le nom associé à la variable, facilitant son identification.
+
 **3. Valeur :** Contenu de la variable.
 
 * ex:
