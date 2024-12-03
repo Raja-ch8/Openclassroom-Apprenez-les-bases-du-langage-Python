@@ -214,3 +214,52 @@ Pourquoi utiliser des dictionnaires vides ?
 
 - **Clarté :** Vous pouvez commencer par une structure vide et ajouter des informations au fur et à mesure qu'elles deviennent disponibles.
 
+#### **<u>Le module `Accédez à une valeur`</u>**
+
+Pour récupérer une valeur dans un dictionnaire, utilisez la clé associée à cette valeur.
+
+* ex: 
+
+```python
+campagne = {
+    "nom": "Black & White"
+}
+campagne = campagne["nom"]
+print(campagne)
+
+#  Black & White
+```
+#### **<u>Le module `Ajouter une paire clé-valeur`</u>**
+
+Pour **ajouter** une paire clé-valeur à un dictionnaire, il suffit d'affecter une valeur à une nouvelle clé. Si la clé existe déjà, sa valeur sera mise à jour.  Le code suivant crée un dictionnaire appelé **info**
+
+* ex: 
+
+```python
+info_valise = {
+    "H": "50 cm",
+    "L": "29 cm"
+}
+info_valise["P"] = "25 cm" 
+print(info_valise)
+
+# {'H': '50 cm', 'L': '29 cm', 'P': '25 cm'}
+```
+
+#### **<u>Le module `Supprimez une paire clé-valeur`</u>**
+
+Pour **supprimer** une paire clé-valeur dans un dictionnaire, vous pouvez utiliser le mot-clé **del** suivi de la clé que vous souhaitez supprimer. Une autre option est d'utiliser la méthode **pop()**, qui permet de supprimer une paire clé-valeur et de récupérer la valeur associée à la clé supprimée.
+
+* ex: 
+Pour supprimer la paire clé-valeur  "P"  de la paire  clé-valeur:
+
+```python
+info_valise = {
+    "H": "50 cm",
+    "L": "29 cm"
+}
+del info_valise["L"]
+print(info_valise)
+
+# {'H': '50 cm'}
+```
