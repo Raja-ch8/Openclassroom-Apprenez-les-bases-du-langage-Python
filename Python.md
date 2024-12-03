@@ -124,3 +124,27 @@ sociales.sort(key=lambda x: x.startswith("I"), reverse=True)
 print(sociales) #['Instagram', 'Facebook', 'Snapchat']
 
 ```
+### **TUPLE**
+
+
+Les **tuples** sont une autre structure de données en Python utilisée pour stocker des informations. Ils se distinguent par l'utilisation de parenthèses () et sont immuables, c'est-à-dire que leur contenu ne peut pas être modifié après leur création.
+
+* ex: 
+
+```python 
+sociales = ("Facebook", "Instagram", "Snapchat")
+```
+
+#### **<u>Le module `Trouvez un élément`</u>**
+
+Pour vérifier si un élément est présent dans un tuple, on peut utiliser l'opérateur in. Si l'élément est présent, le résultat sera **True** (Vrai) ; sinon, le résultat sera **False** (Faux).
+
+* ex:
+
+```python
+nombres = (1,2,3,4,5) # AAffiche False, car 6 n'est pas dans le tuple
+print(6 in nombres) # Affiche le tuple : (1, 2, 3, 4, 5)
+print(nombres) # False 
+               # (1, 2, 3, 4, 5)
+
+```
