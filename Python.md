@@ -152,3 +152,65 @@ print(nombres) # False
 
 Un **dictionnaire** en Python est une structure de données qui permet de stocker des **paires clé-valeur**. Chaque clé est unique et agit comme un identifiant pour sa valeur correspondante. Les dictionnaires sont définis à l'aide des accolades {} et sont très utiles pour organiser et récupérer des données de manière efficace.
 
+* ex: 
+
+Imaginons que vous souhaitiez enregistrer des informations sur une nouvelle campagne de marketing pour une entreprise de vêtements. Vous pourriez avoir besoin de sauvegarder le nom de la campagne, les dates de début et de fin, le responsable de la campagne, et les plateformes utilisées. Un dictionnaire est idéal pour organiser ces informations de manière claire et structurée.
+
+```python
+# Création d'un dictionnaire pour une campagne marketing
+campagne_marketing = {
+    "nom_campagne": "Mode Automne 2024",
+    "date_debut": "2024-05-08",
+    "date_fin": "2024-12-31",
+    "responsable": "Alice Dupont",
+    "plateformes": ["Instagram", "Facebook", "TikTok"],
+}
+
+# Accéder aux informations
+print(f"Nom de la campagne : {campagne_marketing['nom_campagne']}")
+print(f"Dates : du {campagne_marketing['date_debut']} au {campagne_marketing['date_fin']}")
+print(f"Responsable : {campagne_marketing['responsable']}")
+print(f"Plateformes utilisées : {', '.join(campagne_marketing['plateformes'])}")
+
+# Nom de la campagne : Mode Automne 2024
+# Dates : du 2024-05-08 au 2024-12-31
+# Responsable : Alice Dupont
+# Plateformes utilisées : Instagram, Facebook, TikTok
+```
+Un dictionnaire est parfait pour ce type de données car :
+
+- **Clarté :** Les informations sont organisées en paires clé-valeur, ce qui les rend faciles à lire et à comprendre.
+
+- **Flexibilité :** Vous pouvez ajouter ou modifier les clés et valeurs selon vos besoins.
+
+- **Accès rapide :** Vous pouvez récupérer n'importe quelle information en utilisant sa clé.
+
+Vous pouvez également créer un dictionnaire vide de deux façons : en utilisant des accolades {} ou la fonction dict(). Ces méthodes permettent de créer un dictionnaire initialement vide, que vous pourrez remplir plus tard.
+
+* ex: Utiliser des accolades {}
+
+```python
+campagne = {}  # Création d'un dictionnaire vide
+campagne["nom"] = "Promo Été 2024"  # Ajout d'une clé et d'une valeur
+campagne["date_debut"] = "2024-06-01"
+print(campagne)
+
+# {'nom': 'Promo Été 2024', 'date_debut': '2024-06-01'}
+```
+
+* ex: Utiliser la fonction dict()
+
+```python
+campagne = dict()  # Création d'un dictionnaire vide avec dict()
+campagne["nom"] = "Black Friday"
+campagne["date_fin"] = "2024-11-30"
+print(campagne)
+# {'nom': 'Black Friday', 'date_fin': '2024-11-30'}
+
+```
+Pourquoi utiliser des dictionnaires vides ?
+
+- **Flexibilité :** Créer un dictionnaire vide vous permet de le remplir dynamiquement, par exemple en ajoutant des données collectées à partir de l'entrée utilisateur ou d'une API.
+
+- **Clarté :** Vous pouvez commencer par une structure vide et ajouter des informations au fur et à mesure qu'elles deviennent disponibles.
+
