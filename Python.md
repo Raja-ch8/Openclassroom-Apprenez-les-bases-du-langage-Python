@@ -148,3 +148,7 @@ print(nombres) # False
                # (1, 2, 3, 4, 5)
 
 ```
+## **DICTIONNAIRE**
+
+Un **dictionnaire** en Python est une structure de données qui permet de stocker des **paires clé-valeur**. Chaque clé est unique et agit comme un identifiant pour sa valeur correspondante. Les dictionnaires sont définis à l'aide des accolades {} et sont très utiles pour organiser et récupérer des données de manière efficace.
+
